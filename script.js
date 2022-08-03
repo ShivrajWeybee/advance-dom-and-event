@@ -50,7 +50,6 @@ btnScrollTo.addEventListener('click', function(e) {
 
   console.log('Height/Width ViewPort', document.documentElement.clientHeight, document.documentElement.clientWidth);
 
-  // Other Way
   //Scrolling
   /*window.scrollTo(s1coords.left, s1coords.top + window.pageYOffset);
 
@@ -58,9 +57,9 @@ btnScrollTo.addEventListener('click', function(e) {
     left : s1coords.left + window.pageXOffset,
     top : s1coords.top + pageYOffset,
     behavior : 'smooth'
-  });
+  });*/
 
-  section1.scrollIntoView({behavior: 'smooth'});*/
+  section1.scrollIntoView({behavior: 'smooth'});
 })
 
 
